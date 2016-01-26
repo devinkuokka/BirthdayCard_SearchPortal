@@ -1,0 +1,12 @@
+body {
+	 background-image: url("balloons.jpg");
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+	 background-repeat: no-repeat;
+}
+p{
+	font-style: italic;
+	font-size: 36pt;
+	text-align: center;
+}
