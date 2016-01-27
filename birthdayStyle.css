@@ -1,12 +1,42 @@
 body {
-	 background-image: url("balloons.jpg");
+	 background-image: url("palmTrees.jpg");
 	 background-attachment: fixed;
 	 background-size: cover;
 	 background-position: center center;
 	 background-repeat: no-repeat;
 }
 p{
-	font-style: italic;
-	font-size: 36pt;
-	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p.note{
+	border: solid gray;
+	background-color: gray;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	position: fixed;
+	left:3%;
+	top:2%;
+	color: #FFFFF0;
+	font-size:12pt;
+	box-shadow: 0px 0px 10px gray;
+}
+p.hb {
+	position: fixed;
+	left: 3%;
+	bottom: 25%;
+	color: gray;
+	text-shadow: 5px 5px #FFFFF0;
+	font-size:26pt;
+}
+p.R {
+	position: fixed;
+	left: 12%;
+	bottom: 1%;
+	color: gray;
+	text-shadow: 5px 5px #FFFFF0;
+	font-size:45pt;
+	font-weight: bold;
+	text-decoration: underline;
 }
